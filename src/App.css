@@ -1,0 +1,46 @@
+/*Local Var*/
+:root {
+  /*Neutral*/
+  --light-white: #f9f9fc;
+  --dark-white: #f5f5f7;
+  --black: #000;
+  --light-black: #1d1d1f;
+  --ligh-gray: #7d7d7e;
+  --medium-gray: #86868B;
+  --dark-gray: #424245;
+  --apple-red: #ab1f2e;
+  --light-blue: #0071E3;
+  --dark-blue: #0066CC;
+  --dark-red: #B64400;
+  --apple-orange: #fd7321;
+  /*size*/
+  --sz-1: 1rem;
+  --sz-2: 1.25rem;
+  --sz-3: 1.5rem;
+  --sz-4: 1.75rem;
+  --sz-5: 2rem;
+  --sz-6: 2.5rem;
+  --sz-7: 3rem;
+  --sz-8: 3.5rem;
+  --sz-9: 4rem;
+  --sz-10: 5rem;
+  --sz-11: 6rem;
+}
+
+html {
+box-sizing: border-box;
+font-family: -apple-system, system-ui, BlinkMacSystemFont;
+}
+
+*,
+*:before,
+*:after {
+box-sizing: inherit;
+padding: 0;
+margin: 0;
+font-size: 62.5%;
+}
+
+body {
+background-color: var(--light-white);
+}
